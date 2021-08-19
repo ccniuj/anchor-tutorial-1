@@ -1,0 +1,6 @@
+[provider]
+cluster = "https://hel1.rpcpool.com/"
+wallet = "~/.config/solana/sandbox-keypair-1.json"
+
+[scripts]
+test = "mocha --require ts-node/register ./tests/*.ts --timeout 300000"
